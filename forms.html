@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+    <title>Forms</title>
+
+    
+</head>
+
+<body>
+    
+    <form action="url_destinazione" method="post">
+
+
+        <!--campi nome, cognome email e password-->
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="nome" placeholder="inserisci il tuo nome">
+
+        <label for="cognome">Cognome: </label>
+        <input type="text" id="cognome" name="cognome" placeholder="inserisci il tuo cognome">
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="Email" placeholder="inserisci la tua email" required>
+
+        <label for="password">password: </label>
+        <input type="password" id="password" name="password" placeholder="inserisci la tua password" required>
+
+
+        <!-- scelta tra cose-->
+        <p>seleziona il tuo genere</p>
+        <input type="radio" id="maschio" name="genere" value="maschio">
+        <label for="maschio">maschio</label>
+
+        <input type="radio" id="femmina" name="genere" value="femmina">
+        <label for="femmina">femmina</label>
+
+
+        <p>seleziona i tuoi interessi</p>
+        <input type="checkbox" id="sport" name="interesse" value="sport">
+        <label for="sport">sport</label>
+        <input type="checkbox" id="sport" name="interesse" value="sport">
+        <label for="sport">sport</label>
+        <input type="checkbox" id="sport" name="interesse" value="sport">
+        <label for="sport">sport</label>
+        <input type="checkbox" id="sport" name="interesse" value="sport">
+        <label for="sport">sport</label>
+
+
+        <label for="lingua">seleziona la tua lingua preferita</label>
+        <select name="lingua" id="lingua">
+            <option value="italiano">italiano</option>
+            <option value="francese">francese</option>
+            <option value="inglese">inglese</option>
+            <option value="spagnolo">spagnolo</option>
+
+        </select>
+
+
+    
+        <button type="submit">invia</button>
+
+
+
+
+    </form>
+
+</body>
+</html>
